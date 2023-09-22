@@ -4,6 +4,7 @@ module.exports = {
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./node_modules/tw-elements/dist/js/**/*.js"
   ],
   theme: {
     extend: {
@@ -12,6 +13,20 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      animation: {
+        fade: 'oP 4s ease-in-out, tR 4s ease-in-out',
+      },
+
+      keyframes: theme => ({
+        oP: {
+          '0%': { opacity: 0},
+          '100%': { opacity: 1},
+        },
+        tR:{
+          '0%': {transform: 'translateY(20vh)'},
+          '100%': { transform: 'none'},
+        }
+      }),
     },
   },
   plugins: [],

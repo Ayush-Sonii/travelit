@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: absolute;
+    /* position: -webkit-sticky; */
+    padding: 25px 10px;
+    background-color: #1D4851 transparent;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    /* box-shadow: 5px 10px 10px 10px #9AB5BC; */
+}
+.container-active{
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 999;
+    position: -webkit-sticky;
+    padding: 25px 10px;
+    /* background-color: #1D4851; */
+    background-color: #FFFFF0;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 15%;
+}
+.left h1{
+    cursor: pointer;
+    font-size: 20px;
+    color: #53a8b6;
+    /* color: #121c84; */
+    font-weight: bold;
+    text-align: center;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: end; */
+}
+li{
+    list-style: none;
+    padding: 5px 10px;
+    /* font-size: 20px; */
+    margin-left: 5px;
+    cursor: pointer;
+}
+.links{
+    text-decoration: none;
+    /* color: white; */
+    color: #1D4851;
+    padding: 8px;
+    transition: ease-in 0.4s;
+}
+.links:hover{
+    background-color: #1D4851;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    /* padding-bottom: 3px; */
+    /* padding-right: 1px; */
+    /* background-color: rgba(0, 0, 0, 0.415); */
+    /* color: #a9eaf7; */
+}
+.abc{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around; */
+    margin-right: 10px;
+}
+.sbtn{
+    padding: 8px 15px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    margin-left:20px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    transition: 0.5s;
+}
+.sbtn1{
+    background-color: #F75940;
+    color: #fff;
+    margin-right: 20px;
+}
+.sbtn1:hover{
+    background-color: #de503a;
+    border-color: #de503a;
+    cursor: pointer;
+}
+.sbtn2{
+    background-color: #FEEFED;
+    color: #F75940;
+}
+.sbtn2:hover{
+    background-color: #fbaca0;
+    border-color: #fbaca0;
+    color: #f75940;
+    cursor: pointer;
+}

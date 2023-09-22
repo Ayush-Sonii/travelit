@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    margin: 0;
+    padding: 0;
+}
+.bg-blur{
+    background-color: rgba(0, 0, 0, 0.434);
+}
+.containerSign{
+    padding: 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: white;
+    box-sizing: border-box;
+    width: 30%;
+    height: 80vh;
+    text-align: center;
+    box-shadow: 5px 10px 10px 10px #9AB5BC;
+    z-index: 10; 
+}
+.form{
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
+.containerSign input{
+    margin: 10px;
+    padding: auto;
+    width: 100%;
+}
+.containerSign .btn{
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.containerSign .btn1{
+    margin-top: 20px;
+    color: white;
+    background-color: #242961;
+}
+.containerSign .proc{
+    background-color: white;
+    color: #242961;
+    outline: 1px solid #242961;
+    box-shadow: 2px 2px 2px #242961;
+}
+.containerSign .btn1:hover{
+    background-color: white;
+    color: #242961;
+    outline: 1px solid #242961;
+    box-shadow: 2px 2px 2px #242961;
+}
+.containerSign .btn2{
+    color: #242961;
+    background-color: #f2f3ff;
+}
+.containerSign .btn2:hover{
+    color: #f2f3ff;
+    background-color: #6454f0e2;
+    outline: 1px solid #242961;
+    box-shadow: 2px 4px 2px #242961;
+}
+.creds{
+    border-bottom: 1px solid black;
+    padding: 10px;
+    color: black;
+}
+.or{
+    color: gray;
+    margin: 10px;
+    text-shadow: 0 0 2px gray;
+    stroke: gray;
+    stroke-width: 1px;
+}
+.or:before,
+.or:after {
+    background-color: gray;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+.or:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.or:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
