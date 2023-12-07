@@ -1,7 +1,10 @@
+'use client'
 import Image from "next/image"
-
+//import page from "../place_detail/page"
+import {useRouter} from 'next/navigation';
 
 export default function about(){
+  const router = useRouter();
   return (
     <>
     {/* <div className="abWrapper flex flex-wrap mx-3 my-2 mt-5 items-centre justify-around snap-x snap-mandatory">
@@ -118,6 +121,7 @@ export default function about(){
               <p className="text-sm text-slate-500 p-2">
                 The beauty of jaipur.
               </p>
+              <button onClick={() => {router.push("/place_detail")}}>See More</button>
             </div>
           </div>
           <div className="inline-block px-3">
