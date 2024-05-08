@@ -1,0 +1,172 @@
+/* YourComponent.module.css */
+
+.customImage {
+    height: 70vh;
+    width: 100%;
+  }
+
+  /* YourStyles.module.css */
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.imageContainernew {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+}
+
+.customItineraryCard {
+  width: 48%;
+  height: auto;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* overflow: hidden; */
+  transition: height 0.3s;
+}
+
+.expanded {
+  height: auto;
+}
+
+.cardimage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+h2,
+p {
+  padding: 10px;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 10px 10px 10px 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btnL{
+  background-color: #1966b9;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 0 0 10px 10px;
+  cursor: pointer;
+  width: 100%;
+}
+/* .cardimage{
+  max-width: 100%; 
+  max-height: 100%; 
+  width: auto; 
+  height: auto;
+  display: block; 
+  margin: auto;
+} */
+/* .customItineraryCard{
+  width: 50%;
+  height: 30%;
+} */
+
+.inputContainer {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.inputHead{
+  position: absolute;
+  top: 56%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 10px 10px 0 10px;
+  border-radius: 8px 8px 0 0 ;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  /* z-index: 1; */
+}
+
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  /* border-bottom: black solid 0.5px; */
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.textContainer {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.sidebarContainer {
+  display: flex;
+}
+
+.sidebar {
+  width: 25%;
+  background-color: #f0f0f0;
+}
+
+.itineraryContainer {
+  width: 75%;
+  display:flex;
+  /* flex-direction: column; */
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+/* Add more styles as needed */
+
+  
