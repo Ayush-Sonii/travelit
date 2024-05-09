@@ -5,7 +5,7 @@ import React from 'react';
 import {useRouter} from 'next/navigation';
 import axios from 'axios';
 
-function page(props,logRef) {
+function SignupPage(props,logRef) {
   const[user,setUser] = React.useState({
     fname:'',
     lname:'',
@@ -33,7 +33,7 @@ function page(props,logRef) {
   return (
     <>
       <div className={props.checkBlur?"wrapper bg-blur":"wrapper"}>
-          <div className="containerSign" ref={logRef}>
+          <div className="containerSign">
             <form onSubmit={onSignup}>
                 <input className='creds' type="text" placeholder='First Name' onChange={(e)=>{setUser({...user,fname:e.target.value});}}/>
                 <input className='creds' type="text" placeholder='Last Name' onChange={(e)=>{setUser({...user,lname:e.target.value});}}/>
@@ -50,4 +50,4 @@ function page(props,logRef) {
   )
 }
 // export default React.forwardRef(page);
-export default page;
+export default SignupPage;

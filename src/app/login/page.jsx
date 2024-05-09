@@ -21,7 +21,9 @@ const LoginPage = () => {
       setLoading(true);
       const resp = await axios.post("/api/users/login", user);
       console.log("Login Success", resp.data);
-      localStorage.setItem('user',user);
+      console.log(user);
+      localStorage.setItem("user",JSON.stringify(user));
+      console.log(localStorage.getItem("user"));
       router.push("/home");
     } catch (err) {
       console.log("Login Failed", err.message);
