@@ -49,4 +49,5 @@ function page(props,logRef) {
     </>
   )
 }
-export default React.forwardRef(page);
+// export default React.forwardRef(page);
+export default page;
