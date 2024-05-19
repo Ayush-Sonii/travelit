@@ -42,8 +42,8 @@ function SignupPage(props,logRef) {
                 <p className="pt-1 mt-1 text-sm font-semibold text-red-500 ">{message}</p>
                 <input className={loading?"btn proc":"btn btn1"} type="submit" value={loading?"Signing Up...":"Sign Up"}/>
             </form>
-            <p className='or'>or</p>
-            <input className='btn btn2' type="button" value="SIGN UP WITH GOOGLE" />
+            {/* <p className='or'>or</p>
+            <input className='btn btn2' type="button" value="SIGN UP WITH GOOGLE" /> */}
           </div>
         </div>
     </>

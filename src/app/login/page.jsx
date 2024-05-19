@@ -44,11 +44,11 @@ const LoginPage = () => {
             <Link href='#'>Forget Password?</Link>
             <input className={loading ? "btn proc" : "btn btn1"} type="submit" value={loading ? "Logging in..." : "Login"} />
           </form>
-          <p className='p'>or</p>
-          <button className={loading ? "btn proc2" : "btn btn2"} type="button" onClick={() => { signIn('google', { callbackUrl: "/dashboard" }) }}>
+          {/* <p className='p'>or</p> */}
+          {/* <button className={loading ? "btn proc2" : "btn btn2"} type="button" onClick={() => { signIn('google', { callbackUrl: "/dashboard" }) }}>
             <img loading="lazy" height="18" width="18" id="provider-logo-dark" src="https://authjs.dev/img/providers/google.svg"/>
             <span>{loading ? "Logging in..." : "LOGIN WITH GOOGLE"}</span>
-          </button>
+          </button> */}
         </div>
       </div>
     </>
